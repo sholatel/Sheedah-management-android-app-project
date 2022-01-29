@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="product_categories">
+        <item>English plain and pattern</item>
+        <item>Big ankara</item>
+        <item>Small ankara</item>
+        <item>Medium ankara</item>
+        <item>Beldam ankara</item>
+        <item>Ankara plain and pattern</item>
+        <item>Ankara and lace combo</item>
+        <item>Bobbery checkers</item>
+        <item>Cashmere</item>
+        <item>Senator checkers</item>
+        <item>Quality kampala</item>
+        <item>Kente</item>
+        <item>Guinea</item>
+        <item>Cord lace</item>
+        <item>Bubu Gown</item>
+        <item>Jalab</item>
+        <item>Plain scarves</item>
+        <item>Hair scrunchies</item>
+        <item>Perfume</item>
+        <item>Perfume oil</item>
+    </string-array>
+</resources>

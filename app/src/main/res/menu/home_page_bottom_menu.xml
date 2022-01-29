@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="HardcodedText">
+
+    <item
+        android:id="@+id/home_page"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="home"
+        app:showAsAction="always"
+        android:contentDescription="Home"
+        app:iconTint="@color/secondary_varient"
+        android:iconTint="@color/secondary_varient"
+        android:checked="true"
+       />
+
+
+    <item
+        android:id="@+id/new_customer"
+        android:icon="@drawable/ic_baseline_person_add_24"
+        android:title="Add"
+        app:showAsAction="always"
+        app:iconTint="@color/secondary_varient"
+        android:iconTint="@color/secondary_varient"
+        android:contentDescription= "New sale"
+        />
+
+    <item
+        android:id="@+id/customers_details"
+        android:icon="@drawable/person"
+        android:title="Contacts"
+        app:showAsAction="always"
+        app:iconTint="@color/secondary_varient"
+        android:iconTint="@color/secondary_varient"
+        android:contentDescription="Customer details"
+        />
+
+    <item
+        android:id="@+id/new_sale"
+        android:title="Sales"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_baseline_account_balance_wallet_24"
+        android:contentDescription="Sales records"></item>
+
+    <item
+        android:id="@+id/debt"
+        android:title="Debts"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_baseline_indeterminate_check_box_24"
+        android:contentDescription="Debts"></item>
+
+
+
+
+</menu>

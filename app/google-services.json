@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "103558145324",
+    "project_id": "sheedah-69f03",
+    "storage_bucket": "sheedah-69f03.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:103558145324:android:b77b198c6144a918343889",
+        "android_client_info": {
+          "package_name": "com.example.sheedah"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "103558145324-g7ok4avqrjrrtgvpc2vda0kjo38mdimj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sheedah",
+            "certificate_hash": "234df5d3455007550f36beb4b469afcbdd45053f"
+          }
+        },
+        {
+          "client_id": "103558145324-kaakedr6deacbhhvjq5ptmkqpvcooulg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzG0UcUoFCyjz6x0mdXBWaIR4_OA3Wea8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "103558145324-kaakedr6deacbhhvjq5ptmkqpvcooulg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
