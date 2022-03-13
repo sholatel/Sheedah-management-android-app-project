@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_height="wrap_content"
+    app:cardElevation="1dp"
+    android:backgroundTint="?attr/cardBack"
+    android:layout_width="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:padding="10dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/salesDate"
+        android:textSize="15sp"
+        android:layout_gravity="start"></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/salesAmount"
+        android:textSize="15sp"
+        android:padding="10dp"
+        android:layout_gravity="end"></TextView>
+
+
+</androidx.cardview.widget.CardView>

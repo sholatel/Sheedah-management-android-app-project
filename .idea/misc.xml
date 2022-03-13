@@ -11,6 +11,9 @@
         <entry key="app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.12222222222222222" />
         <entry key="app/src/main/res/drawable/ic_baseline_arrow_back_ios_24.xml" value="0.11805555555555555" />
         <entry key="app/src/main/res/drawable/ic_baseline_arrow_back_ios_new_24.xml" value="0.11805555555555555" />
+        <entry key="app/src/main/res/drawable/ic_baseline_close_24.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_baseline_delete_forever_24.xml" value="0.113" />
+        <entry key="app/src/main/res/drawable/ic_baseline_edit_24.xml" value="0.113" />
         <entry key="app/src/main/res/drawable/ic_baseline_email_24.xml" value="0.12222222222222222" />
         <entry key="app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.13223684210526315" />
         <entry key="app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.209375" />
@@ -20,18 +23,46 @@
         <entry key="app/src/main/res/drawable/person.xml" value="0.13223684210526315" />
         <entry key="app/src/main/res/drawable/round_gray.xml" value="0.209375" />
         <entry key="app/src/main/res/drawable/sales.xml" value="0.11805555555555555" />
+        <entry key="app/src/main/res/layout/activity_customer_detail.xml" value="0.12236842105263158" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_profile.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_settings.xml" value="0.12236842105263158" />
+        <entry key="app/src/main/res/layout/annual_sales_fragment.xml" value="0.12236842105263158" />
+        <entry key="app/src/main/res/layout/change_password_layout.xml" value="0.12236842105263158" />
+        <entry key="app/src/main/res/layout/customers_details_recyclerview_layout.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/customers_fragment_layout.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/daily_sales_fragment.xml" value="0.12236842105263158" />
+        <entry key="app/src/main/res/layout/debt_fragment_layout.xml" value="0.12236842105263158" />
+        <entry key="app/src/main/res/layout/edit_customer.xml" value="0.12236842105263158" />
+        <entry key="app/src/main/res/layout/forget_password_layout.xml" value="0.12236842105263158" />
         <entry key="app/src/main/res/layout/home_page.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/home_page_fragment_layout.xml" value="0.12236842105263158" />
         <entry key="app/src/main/res/layout/login_page.xml" value="0.12" />
-        <entry key="app/src/main/res/layout/new_invoice_page.xml" value="0.11782786885245902" />
+        <entry key="app/src/main/res/layout/monthly_sales_fragment.xml" value="0.12236842105263158" />
+        <entry key="app/src/main/res/layout/nav_header_layout.xml" value="0.2" />
+        <entry key="app/src/main/res/layout/new_customer_fragment_layout.xml" value="0.12236842105263158" />
+        <entry key="app/src/main/res/layout/new_invoice_page.xml" value="0.18" />
         <entry key="app/src/main/res/layout/new_sales.xml" value="0.11202185792349727" />
+        <entry key="app/src/main/res/layout/recent_transaction_recyclerview_layout.xml" value="0.1" />
         <entry key="app/src/main/res/layout/recycler_view_content.xml" value="0.14628623188405798" />
+        <entry key="app/src/main/res/layout/sales_page_recyclerview_content.xml" value="0.12236842105263158" />
+        <entry key="app/src/main/res/layout/sales_viewpager_fragment.xml" value="0.12236842105263158" />
+        <entry key="app/src/main/res/layout/setting_frag_layout.xml" value="0.12236842105263158" />
+        <entry key="app/src/main/res/layout/settings_activity.xml" value="0.12236842105263158" />
+        <entry key="app/src/main/res/layout/share_pdf_fragment_layout.xml" value="0.12236842105263158" />
         <entry key="app/src/main/res/layout/signup_page.xml" value="0.14" />
         <entry key="app/src/main/res/layout/splash_screen.xml" value="0.12" />
+        <entry key="app/src/main/res/layout/transaction_history_activity_layout.xml" value="0.12236842105263158" />
+        <entry key="app/src/main/res/layout/transaction_history_fragment_layout.xml" value="0.12236842105263158" />
+        <entry key="app/src/main/res/layout/transaction_history_recycler_content_layout.xml" value="0.12236842105263158" />
         <entry key="app/src/main/res/menu/home_page_bottom_menu.xml" value="0.17708333333333334" />
         <entry key="app/src/main/res/menu/nav_bar.xml" value="0.12203947368421053" />
         <entry key="app/src/main/res/menu/navigation_menu.xml" value="0.12203947368421053" />
         <entry key="app/src/main/res/menu/new_sale_menu.xml" value="0.13" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/invoice_btn_logo.xml" value="0.113" />
+        <entry key="app/src/main/res/xml/provider_paths.xml" value="0.8125" />
+        <entry key="app/src/main/res/xml/root_preferences.xml" value="0.22" />
+        <entry key="app/src/main/res/xml/settings_preference.xml" value="0.12236842105263158" />
       </map>
     </option>
   </component>

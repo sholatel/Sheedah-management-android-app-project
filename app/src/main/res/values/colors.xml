@@ -13,5 +13,8 @@
     <color name="text_secondary_varient">#FFBB86FC</color>
     <color name="gray">#afafaf</color>
     <color name="light_gray">#cfcfcf</color>
+    <color name="very_light_gray">#efefef</color>
     <color name="red">#ff0000</color>
+    <color name="splash_text">#ff00ff</color>
+    <color name="alertTitleColor">?attr/titleColor</color>
 </resources>

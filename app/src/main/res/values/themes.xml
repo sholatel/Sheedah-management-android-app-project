@@ -7,6 +7,7 @@
         <item name="colorOnPrimary">@color/black</item>
         <!-- Secondary brand color. -->
         <item name="colorSecondary">@color/secondary</item>
+        <item name="titleColor">@color/black</item>
         <item name="colorSecondaryVariant">@color/secondary_varient</item>
         <item name="colorOnSecondary">@color/secondary</item>
         <!-- Status bar color. -->
@@ -17,6 +18,7 @@
         <item name="android:windowActivityTransitions">true</item>
         <item name="android:windowSharedElementEnterTransition">@transition/shared_activity_transition</item>
         <item name="android:windowSharedElementExitTransition">@transition/shared_activity_transition</item>
+        <item name="recyclerListSep">@color/very_light_gray</item>
 
     </style>
 

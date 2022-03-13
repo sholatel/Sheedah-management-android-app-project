@@ -25,7 +25,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="-20dp"
         android:text="Welcome,"
-        android:textColor="#000"
+        android:textColor="?attr/titleColor"
         android:textSize="40sp"
          />
 
@@ -75,23 +75,7 @@
                 android:inputType="textEmailAddress" />
         </com.google.android.material.textfield.TextInputLayout>
 
-        <com.google.android.material.textfield.TextInputLayout
-            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            app:boxStrokeErrorColor="@color/red"
-            android:id="@+id/reg_phoneNo_lay"
-            android:layout_marginBottom="5dp"
-            app:startIconDrawable="@drawable/ic_baseline_phone_24"
-            app:startIconTint="@color/secondary_varient"
-            android:hint="Phone No">
 
-            <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/reg_phoneNo"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:inputType="number" />
-        </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
@@ -110,6 +94,22 @@
                 android:layout_height="match_parent"
                 android:inputType="textPassword"></com.google.android.material.textfield.TextInputEditText>
         </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:boxStrokeErrorColor="@color/red"
+            android:id="@+id/confirm_password_lay"
+            android:layout_marginBottom="5dp"
+            app:passwordToggleEnabled="true"
+            android:hint="Confirm password">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/confirm_password"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:inputType="textPassword" />
+        </com.google.android.material.textfield.TextInputLayout>
 
     </LinearLayout>
 
@@ -127,12 +127,19 @@
         android:layout_width="match_parent"
         android:layout_height="40dp"
         android:gravity="center"
-
         android:text="Already a User? Sign in"
         android:textColorLink="#00B0FF"
         android:textSize="15sp"
         android:layout_marginTop="40dp"
         />
+
+       <ProgressBar
+           android:layout_width="20dp"
+           android:layout_gravity="center_horizontal"
+           android:id="@+id/signUpPb"
+           android:visibility="gone"
+           android:layout_marginTop="5dp"
+           android:layout_height="20dp"></ProgressBar>
    </LinearLayout>
 
 </ScrollView>

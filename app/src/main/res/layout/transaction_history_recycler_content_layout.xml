@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <!-- Beginning of column 1....date column-->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/dateColumn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date"
+            android:textColor="@color/light_gray"
+            android:textSize="15sp"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/dateCell"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"></TextView>
+    </LinearLayout>
+
+    <!-- Beginning of column 2.... time column-->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/timeColumn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Time"
+            android:textColor="@color/light_gray"
+            android:textSize="15sp"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/timeCell"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"></TextView>
+    </LinearLayout>
+
+    <!-- Beginning of column 3....amount column-->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/amountColumn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Amount"
+            android:textColor="@color/light_gray"
+            android:textSize="15sp"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/amountCell"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"></TextView>
+    </LinearLayout>
+
+    <!-- Beginning of column 4.... quantity column-->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/quantityColumn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Quantity"
+            android:textColor="@color/light_gray"
+            android:textSize="15sp"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/quantityCell"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"></TextView>
+    </LinearLayout>
+
+
+
+
+
+
+    <!-- Beginning of column 5.... description column-->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/descriptionColumn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Description"
+            android:textColor="@color/light_gray"
+            android:textSize="15sp"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/descriptionCell"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"></TextView>
+    </LinearLayout>
+
+    <!-- Beginning of column 6.... invoice No column-->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/invoiceNoColumn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Invoice No"
+            android:textColor="@color/light_gray"
+            android:textSize="15sp"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/invoiceNoCell"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"></TextView>
+    </LinearLayout>
+
+    </LinearLayout>
